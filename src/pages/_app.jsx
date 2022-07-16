@@ -10,8 +10,8 @@ const navigation = [
   {
     title: 'Introduction',
     links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
+      { title: 'What is Javascript?', href: '/js/what-is-javascript' },
+      { title: 'History of Javacript', href: '/js/history-of-javascript' },
     ],
   },
   {

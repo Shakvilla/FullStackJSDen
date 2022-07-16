@@ -9,16 +9,18 @@ import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 
 const codeLanguage = 'javascript'
-const code = `export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}`
+const code = 
+`Array.from({
+   length: code.split('').length,
+  }).map((_, index) => (
+ <Fragment key={index}>
+    {(index + 1).toString().padStart(2, '0')}
+  <br />
+ </Fragment>
+))`
 
 const tabs = [
-  { name: 'cache-advance.config.js', isActive: true },
+  { name: 'a-sample-js-code.js', isActive: true },
   { name: 'package.json', isActive: false },
 ]
 
@@ -49,7 +51,7 @@ export function Hero() {
               </p>
               <div className="mt-8 flex space-x-4 md:justify-center lg:justify-start">
                 <ButtonLink href="/">Get started</ButtonLink>
-                <ButtonLink href="/" variant="secondary">
+                <ButtonLink href="https://github.com/Shakvilla/FullStackJSDen" variant="secondary" target="_blank">
                   View on GitHub
                 </ButtonLink>
               </div>
