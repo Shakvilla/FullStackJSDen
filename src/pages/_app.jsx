@@ -12,6 +12,7 @@ const navigation = [
     links: [
       { title: 'What is Javascript?', href: '/js/what-is-javascript' },
       { title: 'History of Javacript', href: '/js/history-of-javascript' },
+      {title: 'Set Up and Run Javascript', href: '/js/setting-up-and-running-javascript'}
     ],
   },
   {
