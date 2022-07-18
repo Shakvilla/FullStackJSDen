@@ -19,24 +19,26 @@ There are two ways you can navigate to the console;
 
 - Using the keyboard shortcuts to open the dev console. To do this, you need to open your chrome browser first, then press `F12` on windows OS or `Cmd+Opt+J` on Mac. This will open the developer tools console directly and it will like this;
 
-![Screenshot 2022-07-17 at 10.59.20 PM.png](../../../public/images/Jsimages/Screenshot_2022-07-17_at_10.59.20_PM.png)
+
+{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_10.59.20_PM.png" alt="google chrome dev console" width=500 height=400 /%}
 
 - Before we start typing code, let me show you the other way to get to the dev console. Open your chrome browser, right click or double click on your mouse or mouse pad, now click on `inspect` on the popup like in the picture below;
 
-![Screenshot 2022-07-17 at 11.08.37 PM.png](../../../public/images/Jsimages/Screenshot_2022-07-17_at_11.08.37_PM.png)
+
+{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_11.08.37_PM.png" alt="google chrome dev" width=500 height=400 /%}
 
 Now the developer tools will open, click on the console tab. This will take you to the devtools console.
 
-![Screenshot 2022-07-17 at 11.15.07 PM.png](../../../public/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png)
+
+{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png" alt="google chrome developer tools"  width=500 height=400 /%}
 
 Now we are ready to start typing Javascript in the browser. 
 
 For example; let try to print out a simple “Hello World” Message in the console. Copy the code below and paste in the console.
 
-<aside>
+
 💡 **Note:** ignore the message “*Console was cleared”* in my console. I have a couple. chrome extensions which add some Javascript code in the console once I open it, so to have a clean slate for this tutorial, I had to clear it. If you see a bunch of Javascript code in your console, and wish to clear it. Run `clear()` and press enter, this will clear the console for you.
 
-</aside>
 
 ```jsx
 // print the hello world message to the console
@@ -45,11 +47,13 @@ console.log("Hello World!")
 
 Now press `Enter` or `return` on your keyboard. The results will be `Hello World!` . Don’t worry if you don’t understand how the code works, in this course, I will have an in-depth discussion with you on how this whole thing works.
 
-![Screenshot 2022-07-17 at 11.30.53 PM.png](../../../public/images/Jsimages/Screenshot_2022-07-17_at_11.30.53_PM.png)
+
+{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_11.30.53_PM.png" alt="google chrome developer" width=500 height=400 /%}
 
 ### Firefox and Edge
 
 - To use keyboard shortcuts to open console on Firefox and Edge, press `Ctrl + Shift+ I` or `F12` on Windows and Linux, or `Cmd+Opt+I` on macOS.
 - Or open a new empty tab on your browser, right click or double click on your mouse or mouse pad respectively, select inspect on the popup, once the devtools open, navigate to the console tab. You will arrive at the dev console. See the image below;
 
-![Screenshot 2022-07-17 at 11.51.45 PM.png](../../../public/images/Jsimages/Screenshot_2022-07-17_at_11.51.45_PM.png)
+
+{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_11.51.45_PM.png" alt="google chrome developer"  width=500 height=400 /%}

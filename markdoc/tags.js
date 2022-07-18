@@ -1,5 +1,7 @@
 import { Callout } from '@/components/Callout'
 import { LinkGrid } from '@/components/LinkGrid'
+import Image from 'next/image'
+
 
 const tags = {
   callout: {
@@ -20,11 +22,13 @@ const tags = {
       src: { type: String },
       alt: { type: String },
       caption: { type: String },
+      width: { type: Number},
+      height: { type: Number}
     },
-    render: ({ src, alt = '', caption }) => (
+    render: ({ src, alt = '', width, height, caption }) => (
       <figure>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={src} alt={alt} />
+        <Image src={src} alt={alt} width={width} height={height} />
         <figcaption>{caption}</figcaption>
       </figure>
     ),
