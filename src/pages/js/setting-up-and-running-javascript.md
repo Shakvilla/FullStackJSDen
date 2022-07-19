@@ -56,4 +56,4 @@ Now press `Enter` or `return` on your keyboard. The results will be `Hello World
 - Or open a new empty tab on your browser, right click or double click on your mouse or mouse pad respectively, select inspect on the popup, once the devtools open, navigate to the console tab. You will arrive at the dev console. See the image below;
 
 
-{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.51.45_PM.png" alt="google chrome developer"  width=500 height=400 /%}
+{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.51.45_PM.png" alt="google chrome developer" width=300 height=250 /%}

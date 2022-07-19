@@ -27,9 +27,9 @@ const tags = {
       loader: {type: Object}
     },
     render: ({ src, alt = '', width, height, caption }) => (
-      <figure>
+      <figure className="w-full">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <Image src={src} alt={alt} width={width} height={height}  />
+        <Image src={src} alt={alt} width={width} height={height} objectFit="contain" />
         <figcaption>{caption}</figcaption>
       </figure>
     ),
