@@ -29,7 +29,7 @@ const tags = {
     render: ({ src, alt = '', width, height, caption }) => (
       <figure>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <Image src={src} alt={alt} width={width} height={height} />
+        <Image src={src} alt={alt} width={width} height={height}  />
         <figcaption>{caption}</figcaption>
       </figure>
     ),

@@ -20,17 +20,17 @@ There are two ways you can navigate to the console;
 - Using the keyboard shortcuts to open the dev console. To do this, you need to open your chrome browser first, then press `F12` on windows OS or `Cmd+Opt+J` on Mac. This will open the developer tools console directly and it will like this;
 
 
-{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_10.59.20_PM.png" alt="google chrome dev console" width=500 height=400 /%}
+{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_10.59.20_PM.png" alt="google chrome dev console" width=800 height=400 /%}
 
 - Before we start typing code, let me show you the other way to get to the dev console. Open your chrome browser, right click or double click on your mouse or mouse pad, now click on `inspect` on the popup like in the picture below;
 
 
-{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_11.08.37_PM.png" alt="google chrome dev" width=500 height=400 /%}
+{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.08.37_PM.png" alt="google chrome dev" width=800 height=400 /%}
 
 Now the developer tools will open, click on the console tab. This will take you to the devtools console.
 
 
-{% figure src="../../../public/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png" alt="google chrome developer tools"  width=500 height=400 /%}
+{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png" alt="google chrome developer tools"  width=500 height=400 /%}
 
 Now we are ready to start typing Javascript in the browser. 
 
@@ -56,4 +56,4 @@ Now press `Enter` or `return` on your keyboard. The results will be `Hello World
 - Or open a new empty tab on your browser, right click or double click on your mouse or mouse pad respectively, select inspect on the popup, once the devtools open, navigate to the console tab. You will arrive at the dev console. See the image below;
 
 
-{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_11.51.45_PM.png" alt="google chrome developer"  width=500 height=400 /%}
+{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.51.45_PM.png" alt="google chrome developer"  width=500 height=400 /%}
