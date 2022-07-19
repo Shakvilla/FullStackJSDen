@@ -23,7 +23,8 @@ const tags = {
       alt: { type: String },
       caption: { type: String },
       width: { type: Number},
-      height: { type: Number}
+      height: { type: Number},
+      loader: {type: Object}
     },
     render: ({ src, alt = '', width, height, caption }) => (
       <figure>

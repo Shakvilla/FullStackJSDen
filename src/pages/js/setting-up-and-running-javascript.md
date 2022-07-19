@@ -30,7 +30,7 @@ There are two ways you can navigate to the console;
 Now the developer tools will open, click on the console tab. This will take you to the devtools console.
 
 
-{% figure src="/public/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png" alt="google chrome developer tools"  width=500 height=400 /%}
+{% figure src="../../../public/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png" alt="google chrome developer tools"  width=500 height=400 /%}
 
 Now we are ready to start typing Javascript in the browser. 
 
