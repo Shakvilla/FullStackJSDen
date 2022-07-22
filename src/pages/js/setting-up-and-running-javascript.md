@@ -3,7 +3,7 @@ title: Set Up Javascript
 ---
 ## **Setting up and running Javascript**
 
-### **Running Javascript using Web Developer Tools**
+### **Web Developer Tools**
 
 Javascript powers the web through modern web browsers. Every Web browser out there come with the Latest stable Javascript pre-installed. This allows the web browser to run Javascript code in web applications. 
 
@@ -30,7 +30,7 @@ There are two ways you can navigate to the console;
 Now the developer tools will open, click on the console tab. This will take you to the devtools console.
 
 
-{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png" alt="google chrome developer tools"  width=500 height=400 /%}
+{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.15.07_PM.png" alt="google chrome developer tools"  width=600 height=500 /%}
 
 Now we are ready to start typing Javascript in the browser. 
 
@@ -48,15 +48,15 @@ console.log("Hello World!")
 Now press `Enter` or `return` on your keyboard. The results will be `Hello World!` . Don’t worry if you don’t understand how the code works, in this course, I will have an in-depth discussion with you on how this whole thing works.
 
 
-{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.30.53_PM.png" alt="google chrome developer" width=500 height=400 /%}
+{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.30.53_PM.png" alt="google chrome developer" width=800 height=400 /%}
 
-### Firefox and Edge
+### **Firefox and Edge**
 
 - To use keyboard shortcuts to open console on Firefox and Edge, press `Ctrl + Shift+ I` or `F12` on Windows and Linux, or `Cmd+Opt+I` on macOS.
 - Or open a new empty tab on your browser, right click or double click on your mouse or mouse pad respectively, select inspect on the popup, once the devtools open, navigate to the console tab. You will arrive at the dev console. See the image below;
 
 
-{% figure src="/images/Jsimages/Screenshot_2022-07-17_at_11.51.45_PM.png" alt="google chrome developer" width=500 height=400 /%}
+{% figure src="/images/Jsimages/firefox_developer_tools.png" alt="google chrome developer" width=1000 height=300 /%}
 
 ### **Running Javascript on a code editor:**
 
