@@ -16,7 +16,7 @@ const navigation = [
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Javascript Fundamentals',
     links: [
       { title: 'Understanding caching', href: '/docs/understanding-caching' },
       {
