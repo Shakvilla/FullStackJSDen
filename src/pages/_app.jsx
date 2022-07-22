@@ -8,7 +8,7 @@ import '@/styles/tailwind.css'
 
 const navigation = [
   {
-    title: 'Introduction',
+    title: 'Getting Started',
     links: [
       { title: 'What is Javascript?', href: '/js/what-is-javascript' },
       { title: 'History of Javacript', href: '/js/history-of-javascript' },

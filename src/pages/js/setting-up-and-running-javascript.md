@@ -62,7 +62,7 @@ Now press `Enter` or `return` on your keyboard. The results will be `Hello World
 
 
 
-In this section, we shall go through how you can install and run Javascript on the code editor, and the code editor I will use is [Visual Studio Code](https://code.visualstudio.com/) . Let me state clearly that, Visual Studio Code is just a personal preference, there are other good Code editors out there that you can use. Some other good editors include;
+In this section, we shall go through how you can install and run Javascript on the code editor. The code editor I use is [Visual Studio Code](https://code.visualstudio.com/) . Let me state clearly that, Visual Studio Code is just a personal preference, there are other good Code editors out there that you can use.They include;
 
 - [Atom](https://atom.io/)
 - [Webstorm](https://www.jetbrains.com/webstorm/)
