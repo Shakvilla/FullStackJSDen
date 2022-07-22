@@ -64,13 +64,12 @@ Now press `Enter` or `return` on your keyboard. The results will be `Hello World
 
 In this section, we shall go through how you can install and run Javascript on the code editor. The code editor I use is [Visual Studio Code](https://code.visualstudio.com/) . Let me state clearly that, Visual Studio Code is just a personal preference, there are other good Code editors out there that you can use.They include;
 
-- [Atom](https://atom.io/)
-- [Webstorm](https://www.jetbrains.com/webstorm/)
-- [Notepad++](https://notepad-plus-plus.org/)
-- [Vim](https://www.vim.org/)
-- [GNU Emacs](https://www.gnu.org/software/emacs/)
-- [Sublime Text Editor](https://www.sublimetext.com/)
-- [Brackets](http://brackets.io/)
+- [Atom(Free, Cross-Platform)](https://atom.io/)
+- [Webstorm(Paid, Cross-Platform)](https://www.jetbrains.com/webstorm/)
+- [Notepad++(Free, Cross-Platform)](https://notepad-plus-plus.org/)
+- [GNU Emacs(Free, Cross-Platform)](https://www.gnu.org/software/emacs/)
+- [Sublime Text Editor(Freemium, Cross-Platform)](https://www.sublimetext.com/)
+- [Brackets(Free)](http://brackets.io/)
 
 Feel free to use the editor of your choice and follow along. However, Webstorm editor might have a different approach to working with Javascript files. Go through the docs on [JetBrains](https://www.jetbrains.com/webstorm/) and set it up.
 
