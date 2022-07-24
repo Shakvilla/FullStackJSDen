@@ -19,7 +19,7 @@ const navigation = [
   {
     title: 'Javascript Fundamentals',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
+      { title: 'Lexical Structure ', href: '/js/lexical-structure' },
       {
         title: 'Predicting user behavior',
         href: '/docs/predicting-user-behavior',

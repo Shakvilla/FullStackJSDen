@@ -36,8 +36,9 @@ Now we are ready to start typing Javascript in the browser.
 
 For example; let try to print out a simple “Hello World” Message in the console. Copy the code below and paste in the console.
 
-
-💡 **Note:** ignore the message “*Console was cleared”* in my console. I have a couple. chrome extensions which add some Javascript code in the console once I open it, so to have a clean slate for this tutorial, I had to clear it. If you see a bunch of Javascript code in your console, and wish to clear it. Run `clear()` and press enter, this will clear the console for you.
+{% callout %}
+**Note:** ignore the message “*Console was cleared”* in my console. I have a couple. chrome extensions which add some Javascript code in the console once I open it, so to have a clean slate for this tutorial, I had to clear it. If you see a bunch of Javascript code in your console, and wish to clear it. Run `clear()` and press enter, this will clear the console for you.
+{% /callout %}
 
 
 ```jsx
@@ -75,7 +76,7 @@ Feel free to use the editor of your choice and follow along. However, Webstorm e
 
 Javascript files take the extension `.js`, once you create a file with the extension, then you can write Javascript code in that file and run it on the browser or node server. Based on this, you can decide to use normal text editor on windows to write Javascript but this is not advisable, as you will loose the good stuff(Syntax Highlighting, Code completion, Coloured code etc) code editors provide you.
 
-### Download  and **Install Visual Studio Code**
+### **Download  and Install Visual Studio Code**
 
 > Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET).
 > 
