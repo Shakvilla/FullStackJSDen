@@ -64,7 +64,7 @@ We write lots and lots of lines of code when building a real world application a
     ```
     
     {% callout %}
-    **Note:** You might also see a third type of comment syntax at the start of some JavaScript files, which looks something like this: `#!/usr/bin/env node`.This is called **hashbang comment** syntax, and is a special comment used to specify the path to a particular JavaScript engine that should execute the script. See [Hashbang comments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#hashbang_comments) for more details.
+    Note: You might also see a third type of comment syntax at the start of some JavaScript files, which looks something like this: `#!/usr/bin/env node`.This is called hashbang comment syntax, and is a special comment used to specify the path to a particular JavaScript engine that should execute the script. See [Hashbang comments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#hashbang_comments) for more details.
     
     {% /callout %}
     

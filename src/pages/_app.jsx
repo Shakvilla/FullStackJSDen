@@ -13,16 +13,18 @@ const navigation = [
       { title: 'What is Javascript?', href: '/js/what-is-javascript' },
       { title: 'History of Javacript', href: '/js/history-of-javascript' },
       {title: 'Set Up and Run Javascript', href: '/js/setting-up-and-running-javascript'},
-      {title: 'First Javascript Code(Hello World)', href: '/js/hello-world'}
+      {title: 'First Javascript Code(Hello World)', href: '/js/hello-world'},
+      {title: 'Think like a programmer', href: '/js/think-like-a-programmer'}
     ],
   },
   {
     title: 'Javascript Fundamentals',
     links: [
       { title: 'Lexical Structure ', href: '/js/lexical-structure' },
+
       {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
+        title: 'Variables',
+        href: '/js/variables',
       },
       { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
       {
@@ -78,7 +80,6 @@ function getNodeText(node) {
 
 function collectHeadings(nodes, slugify = slugifyWithCounter()) {
   let sections = []
-
   for (let node of nodes) {
     if (/^h[23]$/.test(node.name)) {
       let title = getNodeText(node)
