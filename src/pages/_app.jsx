@@ -26,7 +26,7 @@ const navigation = [
         title: 'Variables',
         href: '/js/variables',
       },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
+      { title: 'Data Types', href: '/js/data-types' },
       {
         title: 'Introduction to string theory',
         href: '/docs/introduction-to-string-theory',

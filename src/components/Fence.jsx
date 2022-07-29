@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import Highlight, { defaultProps } from 'prism-react-renderer'
-import dracula from 'prism-react-renderer/themes/dracula';
+// import dracula from 'prism-react-renderer/themes/dracula';
 
 
 export function Fence({ children, language }) {
@@ -9,7 +9,7 @@ export function Fence({ children, language }) {
       {...defaultProps}
       code={children.trimEnd()}
       language={language}
-      theme={dracula}
+      theme={undefined}
     >
       {({ className, style, tokens, getTokenProps }) => (
         <pre className={className} style={style}>
