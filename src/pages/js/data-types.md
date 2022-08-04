@@ -1,4 +1,6 @@
-# Data Types
+---
+title: Data Types
+---
 
 This chapter is a very important part of Javascript programming, just like in all programming languages. We need to understand that computer programs work by reading and manipulating texts and values. These are called `types`. Javascript has support for several data types that we need to familiarise ourselves with, to become good at Javascript. This is just an introductory section on data types, once we have some basic foundation of Javascript, we shall revisit Data types in detail.  After this chapter, we will look into variables and constants, which are fundamental to the Javascript language.
 
@@ -13,14 +15,14 @@ Javascript has two data types categories: *`primitive`* and *`object`* types.  T
 - Undefined Type
 
 {% callout %}
-💡 A primitive value refers to an immutable(unchangeable) datum that is represented at the lowest level of the language implementation.
+ A primitive value refers to an immutable(unchangeable) datum that is represented at the lowest level of the language implementation.
 
 {% /callout %}
 
 Any value that is not a `primitive` value is considered an `object` data type in Javascript. We will discuss each type in a jiffy 😊.  We need to understand that Javascript is loosely and dynamically typed. It means [variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned (and reassigned) values of all types:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 {% callout %}
-💡 An object in Javascript refers to a collection of properties where each property has a name and a value(either a primitive value or another object).
+ An object in Javascript refers to a collection of properties where each property has a name and a value(either a primitive value or another object).
 
 {% /callout %}
 
@@ -64,7 +66,7 @@ let greetings = `Good Morning ${fullName}. Welcome to FullStackJS`
 Notice how we use `${}` in the example above. Javascript code is always executed within a block and `{}` represents a block in Javascript. The `${}`  will inform the JSEngine that the code is within a block and must be treated as Javascript code. We will make use of this in more complex ways in this course.
 
 {% callout %}
-💡 Note: Strings are immutable(unchangeable), once we declare a variable or constant and assign it a value of string, we can’t modify it but we can create new strings from the existing string. For Example;
+ Note: Strings are immutable(unchangeable), once we declare a variable or constant and assign it a value of string, we can’t modify it but we can create new strings from the existing string. For Example;
 
 {% /callout %}
 
@@ -167,7 +169,18 @@ An object in Javascript simply refer to a collection of unordered properties whe
 ```jsx
 const emptyObject = {} 
 
+const navigation = {
+	page: "Home",
+	link: "/home"
+	icon: "fa-home"
+} 
+
+
 ```
+
+Observe how we have added content to the second example, we have provided keys and values( key-value pairs). `page` is a key and its matching value is `“Home”`.
+
+The example above is to show us one way we create objects in Javascript. There are other ways we can create objects and we will look at them later in this course.
 
 {% callout %}
  Note: This chapter is an introductory part on all the data types in Javascript. We will revisit all of the types in much detail with more complex code examples in subsequent chapters to come. For now, we just need a basic understanding of Javascript’s data types.
