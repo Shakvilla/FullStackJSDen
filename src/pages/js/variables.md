@@ -1,6 +1,7 @@
 ---
 title: Variables in Javascript
 ---
+
 ## **The concept of variables.**
 
 The concept of variables in programming is an important part of the language. Computers are machines we use to process data and output information. Before a computer can process any data, it has to be saved to memory, before the computer can process that data, this is where variables come in.
@@ -58,12 +59,12 @@ let childName = "John Doe Jr";
 
 **In example 5**, we intentionally used a reserved keyword but the JS engine won’t complain because we added the `$` before the `function` which tells the engine to accept the variable name. 
 
-<aside>
-💡 Note: We will get the error below if we do not add the `$` sign or `_` before using any reserved keyword for our variable naming.  Like in example 6
+{% callout %}
+ Note: We will get the error below if we do not add the `$` sign or `_` before using any reserved keyword for our variable naming.  Like in example 6
 `Uncaught SyntaxError: Unexpected token 'function’` 
 Recommendation: Try to desist from using any keyword as a variable name in general.
 
-</aside>
+{% /callout %}
 
 **In example 7**, observe how the variable name starts with the underscore character. This is another way of declaring variables’ names in Javascript.
 
@@ -76,8 +77,39 @@ There are some restrictions to how we can name variables in Javascript
 - Our variable names can only include digits(0-9), letters(a-z, A-Z) and symbols( `$`, `_` ). But adhere to the first point about digits
 - Javascript is case sensitive, what this means is that `country` is not the same as `Country`, `COUNTRY`, `CountRY` etc. Make sure when you declare a variable, call the same variable when you want to use it and pay attention to the case.
 
+### **The `const` Keyword**
+
+In Javascript, we can create a constant(immutable) variable with the `const` keyword. When we are sure that the value of a variable will not change in the code, then the recommended keyword to use is `const`. This will prevent us from unknowingly changing the value of the variable later. 
+
+```jsx
+const constantVariable = "this is a constant variable and will not change" // constantVariable will always never change
+
+const PI = 3.14159 // The PI Variable is immutable
+```
+
+As developers we strive to make our processed much easier and smooth, based on that, developers often use uppercase constants and underscores for difficult-to-remember values like colours, mathematical formulae etc and then assign the constants to variables. 
+
+```jsx
+const COLOR_BLUE = "#00F";
+let primary_color = COLOR_BLUE;
+
+const PI = 3.14159 
+const radius = 4
+let circumference = 2 * PI * radius
+alert(circumference) // 25.13272
+```
+
+In the example above, we create a constant(immutable) colour `COLOR_BLUE` and assign that `primary_color` which is mutable. Basically, we can reassign a different constant to `primary_color` because we use `let` keyword there. 
+
+In the second example, we create a constant variable, the value for `PI` which never changes, we create a `radius`  constant which doesn’t change as well, then calculate for the circumference of our imaginary circle. 
+
 ### **The `Var` Keyword:**
 
 We have decided to talk about this now because this way of declaring variables is no longer widely used in modern  Javascript and I will explain to you why.
 
-The `var` keyword is an old way of declaring variables in Javascript. This was used prior to ES6 and old browsers still work with this, but 99% of modern browsers work with `let`, `var` and `const`. When we create a variable with the `var` keyword, the variable is *function-scoped(can be accessed within the function it is declared in)* or *globally-scoped(can be accessed globally within the code).*
+The `var` keyword is an old way of declaring variables in Javascript. This was used prior to ES6 and old browsers still work with this, but 99% of modern browsers work with `let`, `var` and `const`. When we create a variable with the `var` keyword, the variable is *function-scoped(can be accessed within the function it is declared in)* or *globally-scoped(can be accessed globally within the code).* We will explain these terms in detail later in this course. 
+
+{% callout %}
+ Note: Do not use var in your projects. This section is just for you to understand old legacy Javascript code.
+
+{% /callout %}
