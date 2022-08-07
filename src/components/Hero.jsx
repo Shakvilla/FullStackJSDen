@@ -50,7 +50,7 @@ export function Hero() {
                 Go through the resources on this page and practice the concepts and code snippets here.
               </p>
               <div className="mt-8 flex space-x-4 md:justify-center lg:justify-start">
-                <ButtonLink href="/">Get started</ButtonLink>
+                <ButtonLink href="/js/what-is-javascript">Get started</ButtonLink>
                 <ButtonLink href="https://github.com/Shakvilla/FullStackJSDen" variant="secondary" target="_blank">
                   View on GitHub
                 </ButtonLink>
